@@ -37,45 +37,44 @@
 
     <div>
         <h2 class="azul">Comandos úteis</h2>
-        <p style="margin: 20px;">Segue abaixo uma lista com uma série de comandos com alguns indispensáveis e outros que são práticos e podem 
-            facilitar a produtivide</p>
+        <p style="margin: 20px;">Segue abaixo uma lista com alguns comandos práticos e podem facilitar a produtividade:</p>
 
         <div class="vermelho1">
-        <p><img src="img/add.png" width="158" height="158" align="left" class="circular-image">O git add é usado para enviar
+        <p><img src="img/add.png" width="150" height="140" align="left" class="circular-image" style="display: relative; top: -10px">O git add é usado para enviar
              arquivos para a staging area. Na frente do código coloca-se o nome do arquivo que será movido, mas também é 
              possível usar a notação "git add ." para que todos os arquivos na pasta sejam selecionados de uma vez.</p>
         </div>
 
         <div class="vermelho2">
-            <p><img src="img/commit.png" width="158" height="158" align="left" class="circular-image">O git commit recebe as informações da staging area criando uma "snapshot" do estado atual do repositório ou seja 
+            <p><img src="img/commit.png" width="150" height="140" align="left" class="circular-image" style="display: relative; top: -10px">O git commit recebe as informações da staging area criando uma "snapshot" do estado atual do repositório ou seja 
             é o que permite propriamente salvar um projeto no git. A opção -am "mensagem a ser adicionada" faz um commit
             direto do diretório que se está trabalhando para o diretorio git sem uma etapa intermediária e portando
             não requer a precedência de um git add.</p>
         </div>
 
         <div class="vermelho3">
-        <p><img src="img/alias.png" width="158" height="158" align="left" class="circular-image" style="display: relative; top: -10px">O git config alias é uma configuração que permite dar nomes para comandos específicos. Por exemplo, experimente digitar: git config alias.ad "commit -am". 
+        <p><img src="img/alias.png" width="150" height="140" align="left" class="circular-image" style="display: relative; top: -10px">O git config alias é uma configuração que permite dar nomes para comandos específicos. Por exemplo, experimente digitar: git config alias.ad "commit -am". 
             O comando anterior cria um novo termo "git ad" que quando digitado roda o código "git commit -am", dessa forma é possível
             encurtar ainda mais os códigos. Adicionando um --global antes do alias faz com que as abreviações criadas sejam válidas
             em qualquer repositório git criado na máquina.</p>
         </div>
 
         <div class="vermelho1">
-            <p style="position: relative; top: -10px;"><img src="img/pull.png" width="158" height="158" align="left" class="circular-image" style="position: relative; top: -15px;">git pull: puxa os arquivos de um repositório
+            <p style="position: relative; top: -10px;"><img src="img/pull.png" width="150" height="140" align="left" class="circular-image" style="position: relative; top: -10px;">git pull: puxa os arquivos de um repositório
                 para o repositório iniciado na máquina. Deve ser seguido pela url de onde se está recebendo os arquivos e o nome da branch aonde
                 eles serão inseridos. Esse comando automaticamente mescla as alterações no caso se houverem commits diferentes ele tenta uni-los, 
                 se adiconarmos a opção --rebase ao invés de mesclar ele aplica as mudanaçs do pull no início e as criadas na branch no final.</p>
             </div>
 
         <div class="vermelho2">
-            <p><img src="img/push.png" width="158" height="158" align="left" class="circular-image" style="position: relative; top: -15px;">O comando git push envia os commits para a o endereço
+            <p><img src="img/push.png" width="150" height="140" align="left" class="circular-image" style="position: relative; top: -10px;">O comando git push envia os commits para a o endereço
                 de um repositório git que deve ser especificado, seguido de qual branch deve ser upada. Não é possível usar esse comando caso o repositório
                 local esteja atrás dos commits do github, a não ser que seja usada a opção --force depois do push, nesse caso os commits do repositório remoto
                 são apagados e substituidos pelos do local.</p>
         </div>
 
         <div class="vermelho3">
-            <p><img src="img/stash.png" width="158" height="158" align="left" class="circular-image" style="display: relative; top: -25   px">Para mudanças que 
+            <p><img src="img/stash.png" width="150" height="140" align="left" class="circular-image" style="display: relative; top: -10px">Para mudanças que 
             ainda não foram concluidas e estão confusas de mais para entrar em um commit é possível usar git stash save nome_do_stash para guardá-las e mais para
             frente usar git stash list para ver qual o número em que a mundaça está salva e finalmente git stash apply numero_na_lista para restaurar àquele estado</p>
             </div>

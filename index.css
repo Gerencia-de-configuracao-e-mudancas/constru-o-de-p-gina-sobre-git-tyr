@@ -92,12 +92,14 @@ h3 {
 }
 
 .vermelho2{
+    height: 128px;
     background-color: #ff99cc;
     padding: 20px;
     margin: 20px;
 }
 
 .vermelho3{
+    height: 128px;
     background-color: #c2f0c2;
     padding: 20px;
     margin: 20px;
